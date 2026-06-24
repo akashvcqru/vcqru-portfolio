@@ -82,7 +82,7 @@ export default function LeadershipPhilosophy() {
               <h3
                 key={index}
                 ref={(el) => { statementRefs.current[index] = el; }}
-                className={`absolute font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-primary-text leading-none select-none max-w-5xl transition-all duration-300 ${
+                className={`absolute font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight text-primary-text leading-none select-none max-w-5xl transition-all duration-300 ${
                   index === 0 ? 'opacity-100' : 'opacity-0 pointer-events-none'
                 }`}
               >

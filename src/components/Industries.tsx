@@ -781,9 +781,9 @@ export default function IndustryExperience() {
                 return (
                   <div 
                     key={index}
-                    className="h-screen w-full flex flex-col justify-center px-16 lg:px-24"
+                    className="h-screen w-full flex flex-col justify-center px-10 lg:px-12 xl:px-16 2xl:px-24"
                   >
-                    <div className="max-w-md space-y-6">
+                    <div className="max-w-xs xl:max-w-md space-y-4 xl:space-y-6">
                       <div className="flex items-center space-x-4">
                         <span className="w-10 h-10 rounded-xl bg-accent/5 border border-accent/15 flex items-center justify-center text-accent">
                           <Icon className="w-5 h-5" />
@@ -793,13 +793,13 @@ export default function IndustryExperience() {
                         </span>
                       </div>
                       
-                      <h3 className="font-display text-4xl lg:text-5xl font-bold tracking-tight text-primary-text uppercase leading-none">
+                      <h3 className="font-display text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold tracking-tight text-primary-text uppercase leading-none">
                         {industry.name}
                       </h3>
                       
                       <div className="w-12 h-0.5 bg-accent" />
                       
-                      <p className="font-sans text-sm sm:text-base text-secondary-text leading-relaxed font-normal">
+                      <p className="font-sans text-xs sm:text-sm xl:text-base text-secondary-text leading-relaxed font-normal">
                         {industry.description}
                       </p>
                     </div>
@@ -808,16 +808,16 @@ export default function IndustryExperience() {
               })}
 
               {/* Slide 0 Intro (At the bottom of the left track) */}
-              <div className="h-screen w-full flex flex-col justify-center px-16 lg:px-24">
-                <div className="max-w-md space-y-6">
+              <div className="h-screen w-full flex flex-col justify-center px-10 lg:px-12 xl:px-16 2xl:px-24">
+                <div className="max-w-xs xl:max-w-md space-y-4 xl:space-y-6">
                   <span className="font-sans text-xs tracking-[0.2em] text-accent font-bold uppercase block">
                     Section 04 — Industries Transformed
                   </span>
-                  <h2 className="font-display text-5xl lg:text-7xl font-bold tracking-tight text-primary-text uppercase leading-[0.95]">
+                  <h2 className="font-display text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl font-bold tracking-tight text-primary-text uppercase leading-[0.95]">
                     Transforming Multi-Sector Ecosystems
                   </h2>
                   <div className="w-16 h-0.5 bg-accent" />
-                  <p className="font-sans text-sm sm:text-base text-secondary-text leading-relaxed font-normal">
+                  <p className="font-sans text-xs sm:text-sm xl:text-base text-secondary-text leading-relaxed font-normal">
                     Driving large-scale technology configurations across FMCG, Dairy, Manufacturing, Pharma, Agriculture, Automobile, E-Commerce, and Supply Chain structures.
                   </p>
                   <div className="pt-4 flex items-center space-x-2 text-xs font-sans font-bold uppercase tracking-wider text-accent animate-pulse">
